@@ -1,0 +1,66 @@
+ TN Budget Movies and BOM Gross Movies
+
+ Overview
+
+
+This repository contains datasets related to movie budgets and box office gross earnings. The datasets are sourced from TN (an industry database) for movie budgets and BOM (Box Office Mojo) for gross earnings. This information is useful for analyzing trends in movie financing and revenue generation.
+
+ Datasets
+
+ TN Budget Movies
+
+*File:* tn_budget_movies.csv
+
+*Description:*
+This dataset includes information about the budgets of various movies. The data is sourced from TN, a reputed industry database known for providing detailed financial data on movie production.
+
+*Columns:*
+- MovieID: Unique identifier for each movie.
+- Title: The title of the movie.
+- Budget: The production budget of the movie in USD.
+- ReleaseDate: The date when the movie was released.
+- Director: The director of the movie.
+- Producer: The producer(s) of the movie.
+- Studio: The studio or production company that funded the movie.
+
+ BOM Gross Movies
+
+*File:* bom_gross_movies.csv
+
+*Description:*
+This dataset includes information about the box office gross earnings of various movies. The data is sourced from Box Office Mojo (BOM), a well-known platform for box office revenue tracking.
+
+*Columns:*
+- MovieID: Unique identifier for each movie.
+- Title: The title of the movie.
+- Gross: The total box office gross earnings in USD.
+- ReleaseDate: The date when the movie was released.
+- Director: The director of the movie.
+- Studio: The studio or production company that released the movie.
+
+Usage
+
+To use these datasets, you can load them into a data analysis tool or environment of your choice (e.g., Python with pandas, R, Excel). 
+
+
+Analysis Ideas
+
+- Analyze the trends in movie budgets over time.
+- Examine the correlation between the production studio and movie success.
+- Identify directors or producers with the highest grossing movies.
+
+CONCLUSION
+
+The analysis underscores the distinct dynamics of low-budget regional cinema in Tamil Nadu and high-grossing international cinema. Both segments demonstrate unique strategies for achieving financial success and audience engagement, highlighting the diverse nature of the film industry.
+
+BOM movies leverage star power, advanced special effects, and established franchises.
+
+TN budget movies often succeed by focusing on relatable stories, regional flavor, and strong word-of-mouth promotion.
+
+RECOMMENDATION
+
+Tn Budget movies are loe budgeted movies which produce a unique flavour and local talent and therefore they should produce more local movies which will bring more gross profit fo the company.
+
+BOM gross movies have more gross profit in the foreign countries which means they should produce more international movies
+
+
